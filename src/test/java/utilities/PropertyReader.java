@@ -15,7 +15,7 @@ public class PropertyReader {
     public void loadProperties(){
         properties = new Properties();
         try{
-            String path = "C:\\Users\\Zacharia.Molefe\\git\\Daniel\\configs\\configs.properties";
+            String path = "configs/configs.properties";
             properties.load(new FileInputStream(path));
             System.out.println("File found");
         }catch(IOException e){
